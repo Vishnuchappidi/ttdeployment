@@ -37,11 +37,6 @@
         </dependency>
 
         <!-- MySQL Driver -->
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
-        </dependency>
         
         <!-- Dotenv for Spring Boot (to read .env automatically locally) -->
         <dependency>
