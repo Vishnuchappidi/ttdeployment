@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/auth")
+@CrossOrigin(origins = "https://ttdeployment-4-on3q.onrender.com")
 public class AuthController {
 
     @Autowired
