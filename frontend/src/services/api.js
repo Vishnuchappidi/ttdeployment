@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8081/api';
+const API_BASE_URL = 'https://ttdeployment-5-q2h0.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
