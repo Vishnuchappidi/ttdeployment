@@ -16,9 +16,9 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
         config.setAllowedOrigins(Arrays.asList(
-                "http://localhost:5173",
-                "http://localhost:3000",
-                "https://ttdeployment-4-on3q.onrender.com"
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://ecoclean-project-1.onrender.com"
         ));
         config.setAllowedHeaders(Arrays.asList("Origin", "Content-Type", "Accept", "Authorization",
                 "X-Requested-With", "Access-Control-Request-Method", "Access-Control-Request-Headers"));
